@@ -23,12 +23,18 @@ try:
 except ImportError:
     flags = None
 
+''' CONSTANTS
+
+Fill in FORECAST_IO_API_KEY, TZ and LOCATION with your own specifics.
+Google Maps can be used to get your Latitude & Longitude
+'''
+
 SCOPES = 'https://www.googleapis.com/auth/calendar'
 CLIENT_SECRET_FILE = 'client_secret.json'
-FORECAST_IO_API_KEY = ""
+FORECAST_IO_API_KEY = ''  # add forecast.io API key here
 APPLICATION_NAME = 'Google Calendar Weather Forecast'
-TZ = "Europe/Dublin"
-LOCATION = "xx.xxxxx,yy.yyyyy"  # lat, long
+TZ = 'Europe/Dublin'
+LOCATION = 'xx.xxxxx,yy.yyyyy'  # lat, long
 
 
 def get_credentials():   # shamelessly ripped from Google sample code
