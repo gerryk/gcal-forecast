@@ -1,5 +1,5 @@
 # gcal-forecast
-Script to post weather forecasts from forecast.io to GCal
+Script to post weather forecasts from forecast.io to GCal.
 Currently this runs on Linux. It was developed on Ubuntu 14.04 and runs on Python 2.7.6. It may work on other versions and distributions, but I haven't verified any.
 
 Requires API access to forecast.io and Google Calendar
